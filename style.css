@@ -1,0 +1,101 @@
+* {
+  font-family: sans-serif;
+  margin: auto;
+  /* border: 1px solid red; */
+}
+
+.to-do-form,
+.to-do-list,
+.to-do-status,
+header {
+  width: 450px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.to-do-form,
+.to-do-list {
+  box-shadow: 0 0 1px;
+}
+
+.to-do-form {
+  width: 450px;
+  height: 110px;
+  background-color: #f6f6f6;
+}
+
+.to-do-form .to-do-input,
+.to-do-clean {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.to-do-clean {
+  margin-bottom: 10px;
+}
+
+.to-do-form .to-do-input input[type="button"] {
+  background-color: #3cac43;
+  color: white;
+  width: 50px;
+  height: 30px;
+  border: 0;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.to-do-form .to-do-input input[type="text"] {
+  width: 85%;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.to-do-form .to-do-clean input[type="button"] {
+  color: blue;
+  background-color: inherit;
+  border: 0;
+  cursor: pointer;
+}
+
+.to-do-list {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.to-do-list table {
+  border: 1px solid #efefef;
+  width: 100%;
+}
+
+.taskDone {
+  text-decoration: line-through;
+  color: red;
+  font-style: italic;
+}
+
+.to-do-status {
+  background-color: white;
+  margin-top: 10px;
+}
+
+.textColumn {
+  text-align: left;
+  width: 92%;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.checkColumn {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr,
+td {
+  border-bottom: 1px solid #efefef;
+  padding: 10px;
+}

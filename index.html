@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <h1>TO-DO List</h1>
+    </header>
+    <main>
+        <section>            
+            <div class="to-do-form">
+                <div class="to-do-input">
+                    <input id="txtToDoTask" type="text" placeholder="Enter new task" >
+                    <input id="btnAdd" type="button" value="Add">
+                </div>
+                <div class="to-do-clean">
+                    <span>Clean : </span>
+                    <input id="btnCleanDone" type="button" value="Done">
+                    <span>|</span>
+                    <input id="btnCleanAll" type="button" value="All">
+                </div>
+            </div>
+
+            <div class="to-do-list">
+                <table id="tblList">                  
+                </table>
+
+            </div>
+            <div class="to-do-status">
+                <span id="doneTaskNumber">0</span> of <span id="allTaskNumber">0</span> task done.
+            </div>            
+
+
+
+        </section>
+    </main>
+    <!--scripts-->
+    <script src="main.js"></script>
+</body>
+</html>
